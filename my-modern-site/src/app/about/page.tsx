@@ -33,7 +33,7 @@ export default function AboutPage() {
                 <li className="flex items-center gap-2">名前：吉田大葵（Yoshida Taiki）</li>
                 <li className="flex items-center gap-2">所属：富山県立大学大学院 工学研究科 電子・情報工学専攻</li>
                 <li className="flex items-center gap-2">研究室：田川研究室</li>
-                <li className="flex items-center gap-2">分野：Virtual Relity，Haptics</li>
+                <li className="flex items-center gap-2">分野：Virtual Reality，Haptics</li>
                 <li className="flex items-center gap-2">その他：富山ランニングクラブ（俺たちのタータン），陸上部</li>
           </ul>
         </section>
