@@ -121,7 +121,7 @@ export default function Home() {
 
         {/* 下部のコンタクトボタンなどはそのままでも、別の配置にしてもOK */}
         <footer className="mt-20 text-center text-slate-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Taiki Yoshida All Right Reserved. </p>
+          <p>&copy; {new Date().getFullYear()} Taiki Yoshida All Rights Reserved. </p>
         </footer>
       </main>
     </div>
