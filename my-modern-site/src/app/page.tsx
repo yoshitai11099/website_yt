@@ -18,7 +18,7 @@ export default function Home() {
             Welcome
           </h1>
           <p className="text-xl md:text-2xl opacity-80 font-light">
-            This is Taiki Yoshida（吉田大葵）'s website.
+            Taiki Yoshida | 吉田大葵
           </p>
         </div>
       </header>
