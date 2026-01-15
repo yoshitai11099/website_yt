@@ -76,7 +76,7 @@ export default function Home() {
             <section className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 border border-slate-100">
               <div className="flex items-center mb-6">
                 <div className="w-1 h-8 bg-pink-600 rounded-full mr-4"></div>
-                <h2 className="text-2xl font-bold">Runnings</h2>
+                <h2 className="text-2xl font-bold">Running</h2>
               </div>
               {/* <div className="aspect-video bg-slate-100 rounded-xl mb-4 flex items-center justify-center text-slate-400">
               <span className="text-sm italic font-medium underline underline-offset-4 decoration-indigo-300">Project Image Placeholder</span>
