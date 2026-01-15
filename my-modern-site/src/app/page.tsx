@@ -71,8 +71,8 @@ export default function Home() {
             </section>
           </Link>
 
-          {/* 3. Works / Projects */}
-          <Link href="/works" className="block group">
+          {/* 3. Running*/}
+          <Link href="/running" className="block group">
             <section className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 border border-slate-100">
               <div className="flex items-center mb-6">
                 <div className="w-1 h-8 bg-pink-600 rounded-full mr-4"></div>
@@ -99,18 +99,23 @@ export default function Home() {
 
 
           {/* 4. Vision / Contact Info */}
-          <section className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 border border-slate-100">
-            <div className="flex items-center mb-6">
-              <div className="w-1 h-8 bg-emerald-600 rounded-full mr-4"></div>
-              <h2 className="text-2xl font-bold">Others</h2>
-            </div>
-            <p className="text-slate-600 leading-relaxed italic">
-              "Simple is better than complex." 複雑なものをシンプルに解釈し、誰にでも使いやすいツールを提供します。
-            </p>
-            <button className="mt-8 w-full bg-slate-900 text-white py-3 rounded-xl font-bold hover:bg-indigo-600 transition-colors">
-              Read More
-            </button>
-          </section>
+
+          <Link href="/others" className="block group">
+            <section className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-1 border border-slate-100 h-full">
+              <div className="flex items-center mb-6">
+                <div className="w-1 h-8 bg-emerald-600 rounded-full mr-4 transition-transform group-hover:scale-y-125"></div>
+                <h4 className="text-2xl font-bold">Others</h4>
+              </div>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                賞，インターン，アルバイトなどの紹介
+              </p>
+
+              {/* 右下に矢印：スマホでは常に表示(opacity-100)、PCではホバー時のみ(md:opacity-0 md:group-hover:opacity-100) */}
+              <div className="mt-6 text-indigo-600 text-sm font-bold flex items-center gap-1 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
+                詳しく見る <span>→</span>
+              </div>
+            </section>
+          </Link>
 
         </div>
 

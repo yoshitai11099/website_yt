@@ -34,6 +34,7 @@ export default function AboutPage() {
                 <li className="flex items-center gap-2">所属：富山県立大学大学院 工学研究科 電子・情報工学専攻</li>
                 <li className="flex items-center gap-2">研究室：田川研究室</li>
                 <li className="flex items-center gap-2">分野：Virtual Relity，Haptics</li>
+                <li className="flex items-center gap-2">その他：富山ランニングクラブ（俺たちのタータン），陸上部</li>
           </ul>
         </section>
 
@@ -48,6 +49,23 @@ export default function AboutPage() {
           </ul>
 
         </section>
+
+        <section className="mt-8 bg-white rounded-3xl p-8 md:p-12 shadow-xl shadow-slate-200/50">
+          <div className="flex items-center mb-6">
+            <div className="w-1 h-8 bg-indigo-600 rounded-full mr-4 transition-transform group-hover:scale-y-125"></div>
+            <h4 className="text-2xl font-bold">Skills</h4>
+          </div>
+          <ul className="mt-4 space-y-2 text-base text-slate-600 font-medium">
+                <li className="flex items-center gap-2">・C/C++ (3DCG、並列化処理、通信、組み込み)</li>
+                <li className="flex items-center gap-2">・C# (Unity3D、VR)</li>
+                <li className="flex items-center gap-2">・Java</li>
+                <li className="flex items-center gap-2">・HTML/CSS</li>
+                <li className="flex items-center gap-2">・Javascript/Typescript (React.js、Next.js、p5.js)</li>
+                <li className="flex items-center gap-2">・Python (検定、画像処理、機械学習、Django)</li>
+                <li className="flex items-center gap-2">・マイコン (Arduino、ESP32)</li>
+          </ul>
+        </section>
+
         <section className="mt-8 bg-white rounded-3xl p-8 md:p-12 shadow-xl shadow-slate-200/50">
           <div className="flex items-center mb-6">
             <div className="w-1 h-8 bg-indigo-600 rounded-full mr-4 transition-transform group-hover:scale-y-125"></div>

@@ -52,7 +52,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/" className="hover:text-indigo-500 transition-colors">Home</Link>
                 <Link href="/about" className="hover:text-indigo-500 transition-colors">About</Link>
                 <Link href="/works" className="hover:text-indigo-500 transition-colors">Works</Link>
-                <Link href="#" className="hover:text-indigo-500 transition-colors">Running</Link>
+                <Link href="/running" className="hover:text-indigo-500 transition-colors">Running</Link>
+                <Link href="/others" className="hover:text-indigo-500 transition-colors">Others</Link>
               </div>
 
               {/* ハンバーガーボタン：中画面(md)以上で非表示 */}
@@ -72,6 +73,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="flex flex-col gap-8 px-10 pt-24 text-xl font-bold text-slate-900">
               <Link href="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
               <Link href="/about" onClick={() => setIsMenuOpen(false)}>About</Link>
+              <Link href="/works" onClick={() => setIsMenuOpen(false)}>Works</Link>
+              <Link href="/running" onClick={() => setIsMenuOpen(false)}>Running</Link>
+              <Link href="/others" onClick={() => setIsMenuOpen(false)}>Others</Link>
             </nav>
           </div>
 
